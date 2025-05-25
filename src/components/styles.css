@@ -1,0 +1,3 @@
+.hover-parent:hover .tooltip {
+  opacity: 1;
+}

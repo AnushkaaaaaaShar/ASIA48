@@ -1,0 +1,76 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "title": "Japan",
+      "img": "https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg",
+      "description": "Japan is an island nation in East Asia known for its rich cultural heritage, advanced technology, and stunning natural landscapes. From ancient temples to futuristic cities like Tokyo, Japan seamlessly blends tradition with innovation.",
+      "capital": "Tokyo",
+      "language": "Japanese",
+      "currency": "Japanese Yen (JPY)",
+      "population": 125.4,
+      "continent": "Asia",
+      "isFeatured": true
+    },
+    {
+      "id": 2,
+      "title": "China",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_China.svg",
+      "description": "China is the world's most populous country and a major global power. With a civilization that dates back thousands of years, China is known for its historic landmarks like the Great Wall, as well as its rapid economic development and influence in global affairs.",
+      "capital": "Beijing",
+      "language": "Mandarin Chinese",
+      "currency": "Chinese Yuan (CNY)",
+      "population": 1411.8,
+      "continent": "Asia",
+      "isFeatured": false
+    },
+    {
+      "id": 3,
+      "title": "India",
+      "img": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg",
+      "description": "India is a vibrant South Asian country known for its diverse cultures, languages, religions, and cuisines. It's the world's largest democracy and home to historical landmarks like the Taj Mahal.",
+      "capital": "New Delhi",
+      "language": "Hindi, English",
+      "currency": "Indian Rupee (INR)",
+      "population": 1400,
+      "continent": "Asia",
+      "isFeatured": true
+    },
+    {
+      "id": 4,
+      "title": "South Korea",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg",
+      "description": "South Korea is a technologically advanced country known for K-pop, innovative electronics, and a unique blend of ancient traditions and modern urban culture.",
+      "capital": "Seoul",
+      "language": "Korean",
+      "currency": "South Korean Won (KRW)",
+      "population": 51.7,
+      "continent": "Asia",
+      "isFeatured": false
+    },
+    {
+      "id": 5,
+      "title": "Thailand",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg",
+      "description": "Thailand is a Southeast Asian country known for its tropical beaches, ornate temples, and vibrant street life. Bangkok, the capital, is a bustling city with modern skyscrapers and historic landmarks.",
+      "capital": "Bangkok",
+      "language": "Thai",
+      "currency": "Thai Baht (THB)",
+      "population": 69.8,
+      "continent": "Asia",
+      "isFeatured": false
+    },
+    {
+      "id": 6,
+      "title": "Indonesia",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg",
+      "description": "Indonesia is an archipelago of over 17,000 islands with a rich diversity of cultures, languages, and ecosystems. It is the world's largest island country and has a vibrant economy.",
+      "capital": "Jakarta",
+      "language": "Indonesian",
+      "currency": "Indonesian Rupiah (IDR)",
+      "population": 276.4,
+      "continent": "Asia",
+      "isFeatured": true
+    }
+  ]
+}
