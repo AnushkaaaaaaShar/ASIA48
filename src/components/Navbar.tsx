@@ -35,7 +35,7 @@ function Navbar({ className }: { className?: string }) {
             <HoveredLink href="/branding">BaseCamp</HoveredLink>
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="About Us">
+        <MenuItem setActive={setActive} active={active} item="About Us" >
           <div className="flex flex-col space-y-2 text-sm">
             <HoveredLink href="/hobby">Hobby</HoveredLink>
             <HoveredLink href="/individual">Individual</HoveredLink>
@@ -43,7 +43,9 @@ function Navbar({ className }: { className?: string }) {
             <HoveredLink href="/enterprise">Enterprise</HoveredLink>
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Contact Us"></MenuItem>
+        <MenuItem setActive={setActive} active={active} item="Contact Us"   >
+        </MenuItem>
+      
          </div>
       </Menu>
      

@@ -5,7 +5,7 @@ export default function CardHoverEffectDemo() {
   return (
     <> 
 
-    <div className="text-center font-extrabold text-teal-800"> EXPLORE </div>
+    <div className="text-center font-extrabold text-teal-800 text-5xl">  How to Cook with Asia 48 </div>
     <div className="max-w-5xl mx-auto px-8">
       <HoverEffect items={countries} />
     </div>
@@ -23,39 +23,38 @@ export default function CardHoverEffectDemo() {
 }
 export const countries = [
   {
-    title: "Japan",
-    description:
-      "An island nation in East Asia known for its blend of traditional culture and advanced technology. Famous for cities like Tokyo, Kyoto, and Osaka.",
+    title: " Step 1: Add Your Ingredients",
+    description:"Make a list of whatever ingredients you already have. Don’t worry about exact quantities — just name them!",
     link: "https://en.wikipedia.org/wiki/Japan",
   },
   {
-    title: "India",
+    title: "Step 2: Pick a Country or Use the Map",
     description:
-      "A diverse South Asian country known for its rich history, vibrant cultures, and being the world's largest democracy.",
+      "Choose your desired country from the dropdown — or simply click on a country on the interactive map to auto-select!",
     link: "https://en.wikipedia.org/wiki/India",
   },
   {
-    title: "China",
+    title: " Step 3: Let AI Cook It Up!",
     description:
-      "The world's most populous country with a long civilization history, rapid economic growth, and cultural landmarks like the Great Wall.",
+      "Hit “Generate Recipe” and our AI will give you a dish that matches your ingredients and chosen cuisine.",
     link: "https://en.wikipedia.org/wiki/China",
   },
   {
-    title: "South Korea",
+    title: "Step 4: Get Your Custom Recipe",
     description:
-      "A high-tech country in East Asia known for K-pop, advanced electronics, and a vibrant mix of modern and traditional culture.",
+      "You'll receive a recipe with ingredients, steps, and country-specific cooking style.",
     link: "https://en.wikipedia.org/wiki/South_Korea",
   },
   {
-    title: "Indonesia",
+    title: "❤️ Save or Try Again",
     description:
-      "A Southeast Asian archipelago of over 17,000 islands, rich in biodiversity and cultural variety, and the world's largest island country.",
+      "Love the recipe? Bookmark it! Not what you were craving? Change your country or ingredients and try again!",
     link: "https://en.wikipedia.org/wiki/Indonesia",
   },
   {
-    title: "Thailand",
+    title: "Github",
     description:
-      "Known for its tropical beaches, ancient temples, and bustling capital Bangkok. A major tourist destination in Southeast Asia.",
+      "here is the code for .",
     link: "https://en.wikipedia.org/wiki/Thailand",
   },
 ];

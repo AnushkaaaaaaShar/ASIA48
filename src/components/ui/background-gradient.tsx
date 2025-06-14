@@ -40,10 +40,11 @@ export const BackgroundGradient = ({
         style={{
           backgroundSize: animate ? "400% 400%" : undefined,
         }}
-        className={cn(
-          "absolute inset-0 rounded-3xl z-[1] opacity-60 group-hover:opacity-100 blur-xl transition duration-500 will-change-transform",
-          "bg-[radial-gradient(circle_farthest-side_at_0_100%,#e879f9,transparent),radial-gradient(circle_farthest-side_at_100%_0,#8b5cf6,transparent),radial-gradient(circle_farthest-side_at_100%_100%,#3b82f6,transparent),radial-gradient(circle_farthest-side_at_0_0,#ec4899,#1e1b4b)]"
-        )}
+      className={cn(
+  "absolute inset-0 rounded-3xl z-[1] opacity-60 group-hover:opacity-100 blur-xl transition duration-500 will-change-transform",
+  "bg-[radial-gradient(circle_farthest-side_at_0_100%,#f472b6,transparent),radial-gradient(circle_farthest-side_at_100%_0,#d946ef,transparent),radial-gradient(circle_farthest-side_at_100%_100%,#c084fc,transparent),radial-gradient(circle_farthest-side_at_0_0,#ec4899,#581c87)]"
+)}
+
       />
       <motion.div
         variants={animate ? variants : undefined}

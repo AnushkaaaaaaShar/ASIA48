@@ -14,10 +14,12 @@ export function BentoGridDemo() {
   return ( 
   <>
 
-  <div className="flex flex-col items-center justify-center"> 
-    <h3 className="text-pink-700 font-bold mt-12"> Inster Something Cool here </h3> 
-      <h1 className="mt-20 mb-16 md:mt-0 text-xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 via-neutral-300 to-neutral-500">
-                EXPLORE WITH US </h1>
+  <div className="flex flex-col items-center justify-center mt-10"> 
+   
+      <h1 className="mt-20 md:mt-0 text-xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 via-neutral-300 to-neutral-500">
+        Get Inspired  </h1>
+         <h2 className="text-pink-700 font-bold text-lg mb-10 mt-2" > 🍽️ Not sure what to make? Here’s what others are cooking with Asia 48.
+</h2> 
   </div>
          
     <BentoGrid className="max-w-6xl mx-auto">
@@ -57,42 +59,42 @@ type Item = {
 const items: Item[] =[
   {
     title: "The Dawn of Innovation",
-    img: "/bg.jpg", // Replace with your image path
+    img: "/pho.jpg", // Replace with your image path
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "The Digital Revolution",
-    img: "/bg.jpg",
+    img: "/biryani.jpg",
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "The Art of Design",
-    img: "/bg.jpg",
+    img: "/curryM.jpg",
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "The Power of Communication",
-    img: "/bg.jpg",
+    img: "/padthai.jpg",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "The Pursuit of Knowledge",
-    img: "/bg.jpg",
+    img: "/dimsum.jpg",
    icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "The Spirit of Adventure",
-    img: "/bg.jpg",
+    img: "/PekingDuck.jpg",
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "The Spirit of Adventure",
-    img: "/bg.jpg",
+    img: "/sushi.jpg",
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "The Spirit of Adventure",
-    img: "/bg.jpg",
+    img: "/kimchi.jpg",
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   
   },

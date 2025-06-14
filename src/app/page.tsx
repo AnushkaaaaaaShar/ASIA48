@@ -11,9 +11,6 @@ export default function Home() {
     <h1>  </h1>
     
     <Herosection/> 
-    
-    
-
     <BentoGrid/>
     <Map/>
   <Newcards/> 
