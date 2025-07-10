@@ -35,7 +35,9 @@ const Map = () => {
 <g id="Asia">
 		
 	<a title="INDONESIA"  href="https://r.search.yahoo.com/_ylt=Awr1QcM3_BJkP8gJ0wG7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Nj/RV=2/RE=1678994615/RO=10/RU=http%3a%2f%2fen.wikipedia.org%2fwiki%2fIndonesia/RK=2/RS=hGo_7pDqqATEYi3PgTMkmQ6sZZE-">
-	<path className={`stroke-white stroke-[${stroke}]`} d="M596.818,441.912l0.212,0.038h0.28h0.425l0.335,0.003l0.031,0.072l0.038,0.275l0.102,0.246l-0.206,0.142
+	<path className={`stroke-white stroke-[${stroke}] fill-transparent transition-all duration-300 hover:fill-blue-500 `} 
+	
+	d="M596.818,441.912l0.212,0.038h0.28h0.425l0.335,0.003l0.031,0.072l0.038,0.275l0.102,0.246l-0.206,0.142
 		l-0.088,0.029l-0.089,0.002l-0.21-0.053l-0.12-0.175l-0.347-0.197l-0.143-0.194L596.818,441.912z M638.368,523.805l0.094-0.005
 		l0.32-0.01l0.28-0.043l0.253-0.09l0.392-0.268l0.02-0.034l0.013-0.051l0.064-0.152l0.027-0.033l0.022-0.011l0.409-0.123
 		l0.057-0.031l0.132-0.148l0.223-0.068l0.095-0.043l0.182-0.041l0.168-0.123l0.136-0.077l0.001-0.001l0.018,0.151l-0.082,0.211
@@ -2055,7 +2057,9 @@ const Map = () => {
 		  */}
 		<a title='MALAYSIA' href="https://r.search.yahoo.com/_ylt=AwrKAzRr3xJkcCEH6767HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Nj/RV=2/RE=1678987244/RO=10/RU=http%3a%2f%2fen.wikipedia.org%2fwiki%2fMalaysia/RK=2/RS=jHt.KSBmWlOVQKaW1tCGXriusCA-">
     
-	<path className={`stroke-white stroke-[${stroke}]`} d="M596.818,441.912l-0.04-0.035l-0.327-0.283l-0.024-0.075l0.046-0.081l0.11-0.077l0.126-0.06l0.096-0.029
+	<path className={`stroke-white stroke-[${stroke}] fill-transparent transition-all duration-300 hover:fill-yellow-500 `} 
+	
+	d="M596.818,441.912l-0.04-0.035l-0.327-0.283l-0.024-0.075l0.046-0.081l0.11-0.077l0.126-0.06l0.096-0.029
 		l0.114,0.007l0.223,0.073l0.111,0.018l0.068,0.031l0.059,0.07l0.082,0.13l0.058,0.057l0.053,0.033l0.061,0.015l0.084,0.004
 		l0.286,0.092l0.027,0.061l0,0.001l0.039,0.09l-0.335-0.003h-0.425h-0.28L596.818,441.912z M500.56,429.048l0.157,0.114l0.329,0.221
 		l0.071,0.035l0.144-0.037l0.029-0.072l-0.053-0.049l-0.1,0.031l0.069-0.096l0.132,0.005l0.715,0.261l0.138,0.082l0.257,0.271
@@ -2332,7 +2336,8 @@ const Map = () => {
      
 
 	 <a title="CYPRUS"  href="https://r.search.yahoo.com/_ylt=Awrx.Zjo4RJkkpQHmsu7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Nj/RV=2/RE=1678987881/RO=10/RU=http%3a%2f%2fen.wikipedia.org%2fwiki%2fCyprus/RK=2/RS=Y_W3xbBuY3RNEN.qnBWu51uBobQ-">
-	<path className={`stroke-white stroke-[${stroke}]`} d="M79.997,238.584l-0.006-0.001l-0.005-0.022l-0.029-0.006H79.93l-0.01-0.029l-0.024-0.012l-0.038-0.023
+<path className={`stroke-white stroke-[${stroke}] fill-transparent transition-all duration-300 hover:fill-orange-500 `} 
+	d="M79.997,238.584l-0.006-0.001l-0.005-0.022l-0.029-0.006H79.93l-0.01-0.029l-0.024-0.012l-0.038-0.023
 		l0.014-0.012h0.029l0.048,0.012l0.024,0.03h0.029h0.024l0.029,0.017l0.02,0.035h-0.01l-0.029,0.006l-0.019,0.006L79.997,238.584z
 		 M79.757,238.397l-0.019-0.01l-0.006-0.02l0.009-0.036l0.007-0.027l0.03-0.011l0.036,0.006v0.075l-0.033,0.012L79.757,238.397z
 		 M79.511,238.497l-0.009,0.113l-0.13,0.049l-0.162,0.161l-0.046,0.096l-0.042,0.122l-0.031,0.135l-0.011,0.133l0.013,0.143
@@ -3175,7 +3180,9 @@ const Map = () => {
 
 		
 		<a title="CHINA"  href="https://r.search.yahoo.com/_ylt=Awrx.1yb4hJkqFQIMgO7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Nj/RV=2/RE=1678988060/RO=10/RU=http%3a%2f%2fen.wikipedia.org%2fwiki%2fChina/RK=2/RS=tJX1IGeSiatBsnz4XIbMscngJc0-">
-	<path className={`stroke-white stroke-[${stroke}]`} d="M351.079,234.687l-0.165-0.027l-0.082,0.007l-0.08,0.028l-0.189,0.142l-0.167,0.096l-0.179,0.035l-0.868-0.146
+		<path className={`stroke-white stroke-[${stroke}] fill-transparent transition-all duration-300 hover:fill-red-500 `} 
+
+	d="M351.079,234.687l-0.165-0.027l-0.082,0.007l-0.08,0.028l-0.189,0.142l-0.167,0.096l-0.179,0.035l-0.868-0.146
 		l-0.046-0.008l-0.22,0.01l-0.392,0.058l-0.179-0.019l-0.195-0.106l-0.287-0.239l-0.15-0.077l-0.186-0.02l-0.451,0.057l-0.223-0.017
 		l-0.221-0.095l-0.08-0.074l-0.13-0.175l-0.08-0.069l-0.118-0.037l-0.132,0.003l-0.253,0.045l-0.25-0.007l-0.128-0.026l-0.115-0.049
 		l-0.098-0.083l-0.145-0.21l-0.086-0.096l-0.113-0.049l-0.257,0.016l-0.034-0.003l-0.086-0.007l-0.111-0.06l-0.077-0.087
@@ -4627,7 +4634,9 @@ const Map = () => {
 		
 		
 		<a title="ISRAEL"  href="https://r.search.yahoo.com/_ylt=AwrKBOoV4xJkvJMIfxC7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Nj/RV=2/RE=1678988181/RO=10/RU=http%3a%2f%2fen.wikipedia.org%2fwiki%2fIsrael/RK=2/RS=mf4h7K9AvcNQkomspjj05NCqlNQ-">
-	<path className={`stroke-white stroke-[${stroke}]`} d="M82.87,266.138l0.099-0.091l0.317-0.234l0.216-0.232l0.018-0.123l-0.051-0.247l0.002-0.122l0.132-0.252
+		<path className={`stroke-white stroke-[${stroke}] fill-transparent transition-all duration-300 hover:fill-blue-200 `} 
+
+	d="M82.87,266.138l0.099-0.091l0.317-0.234l0.216-0.232l0.018-0.123l-0.051-0.247l0.002-0.122l0.132-0.252
 		l0.696-0.667l0.093-0.063h0.001l0.2-0.185l0.013-0.153l-0.117-0.145l-0.186-0.155l0.051-0.124l0.15-0.192l0.547-0.941l0.043-0.056
 		l0.347-0.781l0.168-0.38l0.115-0.182l0.193-0.638l0.004-0.034l-0.008-0.079l0.004-0.034l0.084-0.045l0.497-1.55l0.219-1.086
 		l0.191-0.947l0.035-0.07l0.037-0.325l0.031-0.097l-0.011-0.107l0.141-0.594l0.034-0.653l0.05-0.147l0.092-0.051l0.078,0.019
@@ -4689,7 +4698,9 @@ const Map = () => {
 		
 		
 		<a title="LEBANON" href="https://r.search.yahoo.com/_ylt=AwrKD06Y4xJkT1gIrBC7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Nj/RV=2/RE=1678988313/RO=10/RU=http%3a%2f%2fen.wikipedia.org%2fwiki%2fLebanon/RK=2/RS=GNVco.g1ZJai77De07TAF_CZZ9k-">
-	<path className={`stroke-white stroke-[${stroke}]`} d="M88.147,252.545v-0.012l0.007-0.032l-0.028,0.004l-0.009-0.009v-0.018l-0.005-0.022l0.038-0.082l0.055-0.082
+		<path className={`stroke-white stroke-[${stroke}] fill-transparent transition-all duration-300 hover:fill-green-800 `} 
+
+	d="M88.147,252.545v-0.012l0.007-0.032l-0.028,0.004l-0.009-0.009v-0.018l-0.005-0.022l0.038-0.082l0.055-0.082
 		l0.066-0.064l0.136-0.057l0.044-0.073l0.038-0.083l0.042-0.062l-0.037-0.05l0.037-0.007l0.02,0.01l0.022,0.047l0.185-0.4
 		l0.027-0.219l-0.128-0.186l0.132-0.098l0.093-0.136L89,250.591l0.015-0.097l0.004-0.198l0.023-0.102l0.112-0.168l0.039-0.091
 		l-0.025-0.092l0.32-0.245l0.161-0.169l0.069-0.218l0.013-0.095l0.235-0.639l-0.039-0.05l0.096-0.083l0.072-0.302l0.104-0.067
@@ -4724,7 +4735,9 @@ const Map = () => {
 		
 		
 		<a title="PAKISTAN" href="https://r.search.yahoo.com/_ylt=AwrKFjf74xJk9vwH7Wa7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Nj/RV=2/RE=1678988412/RO=10/RU=http%3a%2f%2fen.wikipedia.org%2fwiki%2fPakistan/RK=2/RS=SVtUhW_xLben_EnHmqwknqIgytw-">
-	<path className={`stroke-white stroke-[${stroke}]`} d="M346.452,237.579l-0.04,0.026l-0.119,0.155l0.024,0.182l0.05,0.207l-0.041,0.233l-0.095,0.127l-0.37,0.298
+		<path className={`stroke-white stroke-[${stroke}] fill-transparent transition-all duration-300 hover:fill-green-950 `} 
+ 
+	d="M346.452,237.579l-0.04,0.026l-0.119,0.155l0.024,0.182l0.05,0.207l-0.041,0.233l-0.095,0.127l-0.37,0.298
 		l-0.118,0.132L345.665,239l-0.094-0.018l-0.162-0.104l-0.166-0.047l-0.219,0.019l-0.216,0.074l-0.15,0.118l-0.05,0.172l0.023,0.402
 		l-0.058,0.142l-0.562,0.54l-0.08,0.044l-0.532,0.114l-0.107-0.003l-0.098-0.037l-0.267-0.199l-0.236-0.038l-0.235,0.091
 		l-0.849,0.493l-0.659,0.172l-0.204,0.006l-0.391-0.168l-0.215,0.047l-0.098,0.09l-0.128,0.217l-0.082,0.102l-0.044,0.024
@@ -4947,7 +4960,9 @@ const Map = () => {
 		
 		
 		<a title="SYRIA" href="https://r.search.yahoo.com/_ylt=AwrKAzRI5BJklHkHPtu7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Nj/RV=2/RE=1678988489/RO=10/RU=http%3a%2f%2fen.wikipedia.org%2fwiki%2fSyria/RK=2/RS=pUS6rpnQkJJFYGp2EU.WktfdJ0M-">
-	<path className={`stroke-white stroke-[${stroke}]`} d="M92.165,255.062l0.164-0.245l0.308-0.365l0.047-0.187l-0.024-0.091l0.072-0.217l0.106-0.182l0.044-0.011
+		<path className={`stroke-white stroke-[${stroke}] fill-transparent transition-all duration-300 hover:fill-pink-200 `} 
+
+	d="M92.165,255.062l0.164-0.245l0.308-0.365l0.047-0.187l-0.024-0.091l0.072-0.217l0.106-0.182l0.044-0.011
 		l0.087-0.165l-0.144-0.24l-0.034-0.091l-0.081-0.696l0.019-0.097l-0.23-0.097v-0.109l0.067-0.108l0.067-0.143l-0.02-0.211
 		l-0.139-0.086l-0.025-0.342l-0.172-0.12l-0.043-0.057l0.206-0.292l-0.235-0.161l0.135-0.062l0.048-0.052l0.101-0.074l0.015-0.098
 		l0.019-0.04l0.01-0.12l0.034-0.045l-0.008-0.039l0.148-0.088l0.154-0.092l0.113-0.067l0.191-0.161l0.098-0.235l-0.083-0.149
@@ -5010,7 +5025,9 @@ const Map = () => {
 		
 		
 		<a title="s.korea"  href="https://r.search.yahoo.com/_ylt=AwrKBOqk5BJk9VMIH2S7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Nj/RV=2/RE=1678988581/RO=10/RU=http%3a%2f%2fen.wikipedia.org%2fwiki%2fKorea/RK=2/RS=jSR9aRlCa2ZBDDsoxapBNaYpoHE-">
-	<path className={`stroke-white stroke-[${stroke}]`} d="M662.475,210.638l0.184,0.363l0.287,0.567l0.057,0.248l0.146,0.376l0.544,1.072l0.424,1.124l0.069,0.122
+		<path className={`stroke-white stroke-[${stroke}] fill-transparent transition-all duration-300 hover:fill-purple-800 `} 
+
+	d="M662.475,210.638l0.184,0.363l0.287,0.567l0.057,0.248l0.146,0.376l0.544,1.072l0.424,1.124l0.069,0.122
 		l0.221,0.273l0.085,0.229l1.026,1.464l0.398,0.578l0.477,0.527l0.068,0.055l0.32,0.375l0.016,0.158l0.002,0.19l0.038,0.161
 		l0.218,0.121l0.063,0.13l0.18,0.584l0.08,0.135l0.096,0.058l0.081,0.083l0.28,0.549l0.168,0.211l0.058,0.116l0.023,0.123
 		l0.043,0.119l0.297,0.326l0.095,0.267l0.084,0.583l0.116,0.321l0.316,0.439l0.024,0.092l-0.036,0.089l-0.057,0.085l-0.036,0.083
@@ -5328,7 +5345,9 @@ const Map = () => {
 		
 		
 		<a title="n.korea" href="https://r.search.yahoo.com/_ylt=AwrKBOov5RJk07UHne27HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Nj/RV=2/RE=1678988720/RO=10/RU=http%3a%2f%2fen.wikipedia.org%2fwiki%2fNorth_Korea/RK=2/RS=SWoKxDPoJ2zlTdNT7XUpxkWb3nY-">
-	<path className={`stroke-white stroke-[${stroke}]`} d="M662.475,210.638l-0.348,0.18l-0.168,0.133l-0.039,0.101l0.013,0.137l0.052,0.268l-0.027,0.278l-0.08,0.242
+		<path className={`stroke-white stroke-[${stroke}] fill-transparent transition-all duration-300 hover:fill-red-800 `} 
+
+	d="M662.475,210.638l-0.348,0.18l-0.168,0.133l-0.039,0.101l0.013,0.137l0.052,0.268l-0.027,0.278l-0.08,0.242
 		l-0.119,0.217l-0.143,0.203l-0.328,0.343l-0.393,0.254l-0.423,0.15l-0.419,0.033l-0.646-0.038L659,213.225l-0.085-0.022
 		l-0.076-0.076l-0.079-0.114l-0.051-0.034l-1.188,0.104l-0.362,0.109l-0.186,0.017l-0.584-0.177l-0.759,0.066l-0.196-0.021
 		l-0.397,0.043l-0.413,0.167l-0.392,0.245l-0.338,0.278l-0.036,0.046l-0.076,0.097l-0.084,0.207l-0.125,0.309l-0.102,0.117
@@ -5515,7 +5534,9 @@ const Map = () => {
 		
 		
 		<a title="bhutan" href="https://r.search.yahoo.com/_ylt=AwrKBOq95RJkT9cIsxG7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Nj/RV=2/RE=1678988862/RO=10/RU=http%3a%2f%2fen.wikipedia.org%2fwiki%2fBhutan/RK=2/RS=rCq2hhDdBUPXK2CtHRv8_Hk8_Ds-">
-	<path className={`stroke-white stroke-[${stroke}]`} d="M436.265,290.441l-0.038,0.298l-0.288,0.404l-0.041,0.265l0.134,0.507l0.058,0.098l0.175,0.141l0.054,0.115
+		<path className={`stroke-white stroke-[${stroke}] fill-transparent transition-all duration-300 hover:fill-gray-500 `} 
+
+	d="M436.265,290.441l-0.038,0.298l-0.288,0.404l-0.041,0.265l0.134,0.507l0.058,0.098l0.175,0.141l0.054,0.115
 		l0.097,0.109l0.141,0.044l0.152,0.028l0.136,0.06l0,0l0.102,0.144l0.007,0.106l0.032,0.052l0.182-0.018l0.479-0.167l0.166-0.028
 		l0.225,0.014l0.079-0.028l0.182-0.137l0.073-0.024l0.137,0.164l0.539,0.996l0.024,0.082l-0.043,0.119l-0.192,0.163l-0.085,0.103
 		l-0.022,0.062l-0.02,0.131l-0.018,0.059l-0.034,0.055l-0.08,0.085l-0.017,0.023l-0.017,0.024l-0.044,0.1l-0.031,0.119l-0.018,0.127
@@ -5554,7 +5575,9 @@ const Map = () => {
 
 		
 		<a  title="oman" href="https://r.search.yahoo.com/_ylt=AwrKAzQE5hJkR_EHDJ67HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Nj/RV=2/RE=1678988932/RO=10/RU=http%3a%2f%2fen.wikipedia.org%2fwiki%2fOman/RK=2/RS=0dHzNB5hMVg6xfu3jkQcy5ZwYgs-">
-	<path className={`stroke-white stroke-[${stroke}]`} d="M218.43,307.071l0.185,0.024l0.115,0.178l0.245,0.049l-0.029,0.186l-0.172,0.089l-0.143,0.051l-0.07,0.061
+		<path className={`stroke-white stroke-[${stroke}] fill-transparent transition-all duration-300 hover:fill-green-100 `} 
+
+	d="M218.43,307.071l0.185,0.024l0.115,0.178l0.245,0.049l-0.029,0.186l-0.172,0.089l-0.143,0.051l-0.07,0.061
 		l-0.182,0.131l-0.101,0.044l-0.097-0.028l-0.076-0.038l-0.009-0.066l0.014-0.168l0.165-0.082l0.06-0.071l-0.037-0.056l-0.02-0.068
 		l-0.012-0.11L218.43,307.071z M218.445,307.625l0.123-0.042l0.033-0.111l-0.089-0.063l-0.054,0.001l-0.034,0.035L218.445,307.625z
 		 M217.301,302.109l0.001-0.002l0.028-0.064l0.058-0.244l0.408-0.645l0.148-0.307l0.062-0.062l0.101-0.055l0.006,0.038l-0.006,0.092
@@ -5663,7 +5686,9 @@ const Map = () => {
 		
 		
 		<a title="uzbekistan"  href="https://r.search.yahoo.com/_ylt=AwrKExVz5hJk7moII3W7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Nj/RV=2/RE=1678989044/RO=10/RU=http%3a%2f%2fen.wikipedia.org%2fwiki%2fUzbekistan/RK=2/RS=GXU4xWbl73ZWPxudloovF134SCA-">
-	<path className={`stroke-white stroke-[${stroke}]`} d="M314.038,199.814l0.026,0.083l-0.139,0.511l-0.06,0.099l-0.095,0.019l-0.158-0.048l-0.119-0.057l-0.132-0.095
+		<path className={`stroke-white stroke-[${stroke}] fill-transparent transition-all duration-300 hover:fill-orange-500 `} 
+
+	d="M314.038,199.814l0.026,0.083l-0.139,0.511l-0.06,0.099l-0.095,0.019l-0.158-0.048l-0.119-0.057l-0.132-0.095
 		l-0.061-0.115l0.1-0.119l0.155-0.008l0.106-0.053l0.225-0.168L314.038,199.814z M308.948,197.819l-0.127-0.012l-0.546,0.049
 		l-0.878,0.27l-0.264,0.022l-0.26-0.017l-0.248-0.178l-0.11-0.341l-0.082-0.372l-0.164-0.268l-0.136-0.057l-0.117,0.012
 		l-0.116,0.036l-0.135,0.012l-0.129-0.037l-0.307-0.136l0.083-0.28l-0.017-0.034l-0.053-0.063l-0.013-0.012l0.004,0.003
@@ -5836,7 +5861,9 @@ const Map = () => {
 		
 		
 		<a title="kazakhstan"   href="https://r.search.yahoo.com/_ylt=AwrKFjf75hJkNrIIbQy7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Nj/RV=2/RE=1678989180/RO=10/RU=http%3a%2f%2fen.wikipedia.org%2fwiki%2fKazakhstan/RK=2/RS=hu2oitzV6Wel.nO2rbLctgtVpSE-">
-	<path className={`stroke-white stroke-[${stroke}]`} d="M409.728,121.254l-0.758-0.22l-0.238-0.132l-0.281-0.065l-0.867,0.35l-0.178-0.019l-0.365-0.116l-0.172,0.014
+		<path className={`stroke-white stroke-[${stroke}] fill-transparent transition-all duration-300 hover:fill-yellow-900 `} 
+
+	d="M409.728,121.254l-0.758-0.22l-0.238-0.132l-0.281-0.065l-0.867,0.35l-0.178-0.019l-0.365-0.116l-0.172,0.014
 		l-0.131,0.108l-0.136,0.332l-0.106,0.152l-0.239,0.207l-0.102,0.116l-0.099,0.162l-0.084,0.191l-0.027,0.147l0.013,0.161
 		l0.04,0.229l0.147,0.316l0.196,0.189l0.097,0.181l-0.153,0.294l-0.114,0.138l-0.043,0.087l0.008,0.11l0.07,0.396l0.001,0.128
 		l-0.046,0.111l-0.465,0.644l-0.295,0.289l-0.096,0.121l-0.074,0.148l-0.113,0.318l-0.062,0.116l-0.115,0.094l-0.713,0.29

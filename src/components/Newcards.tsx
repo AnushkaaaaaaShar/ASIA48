@@ -12,10 +12,10 @@ export default function CardHoverEffectDemo() {
 
      <div className='text-center'> 
             <Link 
-                href={"/courses"}
+                href="/recipes"
                 className="inline-flex items-center px-8 py-3 text-lg font-semibold text-white bg-teal-600 hover:bg-teal-700 rounded-full transition-colors duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
             > 
-                View All Countries
+                let's Cook 
             </Link> 
         </div>
         </>

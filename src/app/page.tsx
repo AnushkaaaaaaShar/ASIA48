@@ -4,6 +4,7 @@ import  BentoGrid  from "@/components/Bentogrid";
 import Map from "@/components/Map";
 import Cards from "@/components/Cards"
 import Newcards from '@/components/Newcards'; 
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
     <BentoGrid/>
     <Map/>
   <Newcards/> 
+  <Footer/>
     </main>
 
   );

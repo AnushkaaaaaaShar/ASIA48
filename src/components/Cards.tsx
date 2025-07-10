@@ -23,7 +23,7 @@ const Cards = () => {
   return (
     <div className='py-12 bg-black'>
         {/* // for the title  */}
-        <div> <div className="text-center font-extrabold text-teal-800"> EXPLORE </div></div>
+        <div> <div className="text-center font-extrabold text-teal-800"> How to Cook with Asia 48 </div></div>
         <div className='mt-10'> 
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center'>
                 {featured.map((choose:NewSome) => ( 

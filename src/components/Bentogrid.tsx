@@ -30,17 +30,26 @@ export function BentoGridDemo() {
             i === 3 || i === 8 ? "md:col-span-2" : ""
           }`}
           title={
-            <span className="absolute bottom-4 left-4 text-lg font-semibold text-[#c8ac62] opacity-0 group-hover:opacity-100 transition-opacity duration-300  bg-transparent">
+            <span className="absolute bottom-6 left-4 text- semibold text-[#ffffff] opacity-0 group-hover:opacity-800 transition-opacity duration-300  bg-transparent">
               {item.title}
             </span>
           }
           description={null}
           header={
+
+              <a
+      href={item.videourl}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="relative w-full h-full block"
+    >
             <img
               src={item.img}
               alt={item.title}
               className="object-cover w-full h-full rounded-xl"
             />
+            </a>
+
           }
         //   icon={item.icon}
         />
@@ -54,48 +63,57 @@ type Item = {
   title: string;
   img: string;
   icon: React.JSX.Element;
+  videourl: string; 
 };
 
 const items: Item[] =[
   {
-    title: "The Dawn of Innovation",
+    title: "Pho from Vietnam",
     img: "/pho.jpg", // Replace with your image path
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
+    videourl: "https://youtu.be/9Sg21AHuO4A?si=-RqUCYEMjjtG9yb5"
   },
   {
-    title: "The Digital Revolution",
+    title: "Biryani from Indiaa",
     img: "/biryani.jpg",
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
+    videourl: "https://youtu.be/9Sg21AHuO4A?si=-RqUCYEMjjtG9yb5"
   },
   {
-    title: "The Art of Design",
+    title: "Curry from Japan",
     img: "/curryM.jpg",
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
+    videourl: "https://youtu.be/9Sg21AHuO4A?si=-RqUCYEMjjtG9yb5"
   },
   {
-    title: "The Power of Communication",
+    title: "Padthai from Indo",
     img: "/padthai.jpg",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
+    videourl: "https://youtu.be/9Sg21AHuO4A?si=-RqUCYEMjjtG9yb5"
   },
   {
-    title: "The Pursuit of Knowledge",
+    title: "Dimsums from China",
     img: "/dimsum.jpg",
    icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
+   videourl: "https://youtu.be/9Sg21AHuO4A?si=-RqUCYEMjjtG9yb5"
   },
   {
     title: "The Spirit of Adventure",
     img: "/PekingDuck.jpg",
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
+    videourl: "https://youtu.be/9Sg21AHuO4A?si=-RqUCYEMjjtG9yb5"
   },
   {
     title: "The Spirit of Adventure",
     img: "/sushi.jpg",
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
+    videourl: "https://youtu.be/9Sg21AHuO4A?si=-RqUCYEMjjtG9yb5"
   },
   {
     title: "The Spirit of Adventure",
     img: "/kimchi.jpg",
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
+    videourl: "https://youtu.be/9Sg21AHuO4A?si=-RqUCYEMjjtG9yb5"
   
   },
 ];

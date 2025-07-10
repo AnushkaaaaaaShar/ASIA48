@@ -25,7 +25,6 @@ function Navbar({ className }: { className?: string }) {
       <Menu setActive={setActive}>
         <div className="flex gap-0 md:gap-12 items-end justify-end">
         <MenuItem setActive={setActive} active={active} item="Home">
-        
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Explore">
           <div className="flex flex-col space-y-2 text-sm">
