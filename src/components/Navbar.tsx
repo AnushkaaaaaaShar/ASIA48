@@ -26,21 +26,21 @@ function Navbar({ className }: { className?: string }) {
         <div className="flex gap-0 md:gap-12 items-end justify-end">
         <MenuItem setActive={setActive} active={active} item="Home">
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Explore">
-          <div className="flex flex-col space-y-2 text-sm">
+        <MenuItem setActive={setActive} active={active}  item="Explore">
+          {/* <div className="flex flex-col space-y-2 text-sm">
             <HoveredLink href="/web-dev">India</HoveredLink>
             <HoveredLink href="/interface-design">Bhutan</HoveredLink>
             <HoveredLink href="/seo">Sri Lanka</HoveredLink>
             <HoveredLink href="/branding">BaseCamp</HoveredLink>
-          </div>
+          </div> */}
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="About Us" >
-          <div className="flex flex-col space-y-2 text-sm">
+          {/* <div className="flex flex-col space-y-2 text-sm">
             <HoveredLink href="/hobby">Hobby</HoveredLink>
             <HoveredLink href="/individual">Individual</HoveredLink>
             <HoveredLink href="/team">Team</HoveredLink>
             <HoveredLink href="/enterprise">Enterprise</HoveredLink>
-          </div>
+          </div> */}
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Contact Us"   >
         </MenuItem>

@@ -25,37 +25,37 @@ export const countries = [
   {
     title: " Step 1: Add Your Ingredients",
     description:"Make a list of whatever ingredients you already have. Don’t worry about exact quantities — just name them!",
-    link: "https://en.wikipedia.org/wiki/Japan",
+    link: "",
   },
   {
-    title: "Step 2: Pick a Country or Use the Map",
+    title: "Step 2: Pick a Country",
     description:
-      "Choose your desired country from the dropdown — or simply click on a country on the interactive map to auto-select!",
-    link: "https://en.wikipedia.org/wiki/India",
+      "Choose your desired country from the dropdown.",
+    link: "",
   },
   {
     title: " Step 3: Let AI Cook It Up!",
     description:
       "Hit “Generate Recipe” and our AI will give you a dish that matches your ingredients and chosen cuisine.",
-    link: "https://en.wikipedia.org/wiki/China",
+    link: "",
   },
   {
     title: "Step 4: Get Your Custom Recipe",
     description:
       "You'll receive a recipe with ingredients, steps, and country-specific cooking style.",
-    link: "https://en.wikipedia.org/wiki/South_Korea",
+    link: "",
   },
   {
     title: "❤️ Save or Try Again",
     description:
       "Love the recipe? Bookmark it! Not what you were craving? Change your country or ingredients and try again!",
-    link: "https://en.wikipedia.org/wiki/Indonesia",
+    link: "",
   },
   {
     title: "Github",
     description:
       "here is the code for .",
-    link: "https://en.wikipedia.org/wiki/Thailand",
+    link: "https://github.com/AnushkaaaaaaShar/ASIA48",
   },
 ];
 

@@ -16,9 +16,9 @@ export function BentoGridDemo() {
 
   <div className="flex flex-col items-center justify-center mt-10"> 
    
-      <h1 className="mt-20 md:mt-0 text-xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 via-neutral-300 to-neutral-500">
+      <h1 className="mt-20 md:mt-0 text-xl md:text-7xl sm:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 via-neutral-300 to-neutral-500">
         Get Inspired  </h1>
-         <h2 className="text-pink-700 font-bold text-lg mb-10 mt-2" > 🍽️ Not sure what to make? Here’s what others are cooking with Asia 48.
+         <h2 className="text-center sm:text-left text-[#C060A1] font-semibold text-base sm:text-lg mb-10 mt-2 px-2"> 🍽️ Not sure what to make? Here’s what others are cooking with Asia 48.
 </h2> 
   </div>
          
@@ -68,53 +68,53 @@ type Item = {
 
 const items: Item[] =[
   {
-    title: "Pho from Vietnam",
-    img: "/pho.jpg", // Replace with your image path
+    title: "Pho from Vietnam 🇻🇳",
+    img: "/pho.jpg",
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
-    videourl: "https://youtu.be/9Sg21AHuO4A?si=-RqUCYEMjjtG9yb5"
+    videourl: "http://www.youtube.com/watch?v=9Sg21AHuO4A"
   },
   {
-    title: "Biryani from Indiaa",
+    title: "Biryani from India 🇮🇳",
     img: "/biryani.jpg",
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
-    videourl: "https://youtu.be/9Sg21AHuO4A?si=-RqUCYEMjjtG9yb5"
+    videourl: "http://www.youtube.com/watch?v=K9qJQmOeohU"
   },
   {
-    title: "Curry from Japan",
+    title: "Curry from India 🇮🇳", // While Japanese curry is popular, the origin of curry is India.
     img: "/curryM.jpg",
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
-    videourl: "https://youtu.be/9Sg21AHuO4A?si=-RqUCYEMjjtG9yb5"
+    videourl: "http://www.youtube.com/watch?v=mIfE6-Pra8s"
   },
   {
-    title: "Padthai from Indo",
+    title: "Pad Thai from Thailand 🇹🇭",
     img: "/padthai.jpg",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
-    videourl: "https://youtu.be/9Sg21AHuO4A?si=-RqUCYEMjjtG9yb5"
+    videourl: "http://www.youtube.com/watch?v=b7YnoRFuZ9o"
   },
   {
-    title: "Dimsums from China",
+    title: "Dim Sum from China 🇨🇳",
     img: "/dimsum.jpg",
    icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
-   videourl: "https://youtu.be/9Sg21AHuO4A?si=-RqUCYEMjjtG9yb5"
+   videourl: "http://www.youtube.com/watch?v=FKRHHjrvo6A"
   },
   {
-    title: "The Spirit of Adventure",
+    title: "Peking Duck from China 🇨🇳",
     img: "/PekingDuck.jpg",
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
-    videourl: "https://youtu.be/9Sg21AHuO4A?si=-RqUCYEMjjtG9yb5"
+    videourl: "http://www.youtube.com/watch?v=KnJ3abXjgME"
   },
   {
-    title: "The Spirit of Adventure",
+    title: "Sushi from Japan 🇯🇵",
     img: "/sushi.jpg",
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
-    videourl: "https://youtu.be/9Sg21AHuO4A?si=-RqUCYEMjjtG9yb5"
+    videourl: "http://www.youtube.com/watch?v=xAjb1lfIVUw"
   },
   {
-    title: "The Spirit of Adventure",
+    title: "Kimchi from Korea 🇰🇷",
     img: "/kimchi.jpg",
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
-    videourl: "https://youtu.be/9Sg21AHuO4A?si=-RqUCYEMjjtG9yb5"
-  
+    videourl: "http://www.youtube.com/watch?v=eTucCw1w6Ak"
+
   },
 ];
 

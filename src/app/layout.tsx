@@ -5,6 +5,7 @@ import { Press_Start_2P } from 'next/font/google';
 import { Pixelify_Sans, Jersey_15 } from 'next/font/google';
 
 
+
 // const geistMono = Geist_Mono({
 //   variable: "--font-geist-mono",
 //   subsets: ["latin"],
@@ -40,6 +41,7 @@ export default function RootLayout({
       <body >
         <div className="relative w-full flex items-center justify-center">
            <Navbar/>
+        
         </div>
         
         

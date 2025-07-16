@@ -14,14 +14,16 @@ const Herosection = () => {
           <p className="mt-4 md:text-sm mx-auto">
 Turn your ingredients into delicious recipes from 48 Asian countries — powered by AI.   </p> 
           <div className="mt-4"> 
-                <Link
+               <Link
                 href="/recipes"
-                className="inline-block px-8 py-4 mt-4 text-white bg-gradient-to-r from-pink-400 to-neutral-900 rounded-full shadow-lg hover:from-neutral-700 hover:to-pink-400 transition-all duration-300"
-                    >
-                Get My Recipe
+                className="inline-block px-8 py-4 mt-4 text-white font-medium rounded-full 
+                          bg-gradient-to-r from-[#C060A1] to-[#D57AE3] 
+                          shadow-md hover:from-[#D57AE3] hover:to-[#C060A1] 
+                          transition-all duration-300 ease-in-out"
+              >
+  Get My Recipe
+</Link>
 
-
-                </Link>
 
           </div>
         </div>
