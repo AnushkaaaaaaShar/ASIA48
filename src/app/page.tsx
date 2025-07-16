@@ -6,6 +6,7 @@ import Cards from "@/components/Cards"
 import Newcards from '@/components/Newcards'; 
 import Footer from "@/components/Footer";
 
+
 export default function Home() {
   return (
     <main className="mih-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]"> 

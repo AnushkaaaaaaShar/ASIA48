@@ -30,7 +30,7 @@ export function BentoGridDemo() {
             i === 3 || i === 8 ? "md:col-span-2" : ""
           }`}
           title={
-            <span className="absolute bottom-6 left-4 text- semibold text-[#ffffff] opacity-0 group-hover:opacity-800 transition-opacity duration-300  bg-transparent">
+            <span className="absolute bottom-6 text-semibold w-full text-[#ffffff] opacity-0 group-hover:opacity-800 transition-opacity duration-300  bg-transparent">
               {item.title}
             </span>
           }
