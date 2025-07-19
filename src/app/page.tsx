@@ -2,9 +2,9 @@
 import Herosection from "@/components/Herosection";
 import  BentoGrid  from "@/components/Bentogrid";
 import Map from "@/components/Map";
-import Cards from "@/components/Cards"
 import Newcards from '@/components/Newcards'; 
 import Footer from "@/components/Footer";
+import Intro from "@/components/Intro";
 
 
 export default function Home() {
@@ -13,6 +13,7 @@ export default function Home() {
     <h1>  </h1>
     
     <Herosection/> 
+    <Intro/>
     <BentoGrid/>
     <Map/>
   <Newcards/> 
