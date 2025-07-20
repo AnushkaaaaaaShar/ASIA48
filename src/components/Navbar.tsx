@@ -1,54 +1,65 @@
 "use client";
+
 import React, { useState } from "react";
-import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
+import { MenuItem, Menu } from "./ui/navbar-menu";
 import { cn } from "@/lib/utils/cn";
 import Link from "next/link";
+import { motion } from "framer-motion";
+import { usePathname } from "next/navigation";
 
-export function NavbarDemo() {
-  return (
-    <div className="relative w-full flex items-center justify-center ">
-      <Navbar className="top-2" />
-      <p className="text-black dark:text-white">
-        The Navbar will show on top of the page
-      </p>
-    </div>
-  );
-}
- 
 function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const pathname = usePathname();
+
   return (
-    <div
-      className={cn("fixed top-4 inset-x-0 w-full z-50 px-4 gap-6" , className)}
-    >
-      
-      <Menu setActive={setActive}>
-        <div className="flex gap-0 md:gap-12 items-end justify-end">
-        <MenuItem setActive={setActive} active={active} item="Home">
-        </MenuItem>
-        <MenuItem setActive={setActive} active={active}  item="Explore">
-          {/* <div className="flex flex-col space-y-2 text-sm">
-            <HoveredLink href="/web-dev">India</HoveredLink>
-            <HoveredLink href="/interface-design">Bhutan</HoveredLink>
-            <HoveredLink href="/seo">Sri Lanka</HoveredLink>
-            <HoveredLink href="/branding">BaseCamp</HoveredLink>
-          </div> */}
-        </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="About Us" >
-          {/* <div className="flex flex-col space-y-2 text-sm">
-            <HoveredLink href="/hobby">Hobby</HoveredLink>
-            <HoveredLink href="/individual">Individual</HoveredLink>
-            <HoveredLink href="/team">Team</HoveredLink>
-            <HoveredLink href="/enterprise">Enterprise</HoveredLink>
-          </div> */}
-        </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Contact Us"   >
-        </MenuItem>
-      
-         </div>
-      </Menu>
-     
+    <div className={cn("fixed w-full top-4 inset-x-0 z-50 flex justify-center", className)}>
+      <div className="flex items-center justify-center w-full px-6">
+
+        {/* Desktop Menu */}
+        <div className="hidden md:flex items-center gap-6">
+          <Menu setActive={setActive}>
+            <MenuItem setActive={setActive} active={active} item="Home" href="/" />
+            <MenuItem setActive={setActive} active={active} item="Explore" href="/navbar/explore" />
+            <MenuItem setActive={setActive} active={active} item="About Us" href="/navbar/aboutus" />
+            <MenuItem setActive={setActive} active={active} item="Contact Us" href="/navbar/contact" />
+          </Menu>
+        </div>
+
+        {/* Mobile Hamburger */}
+        <div className="md:hidden">
+          <button
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className="text-black dark:text-white focus:outline-none"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-8 h-8">
+              {mobileMenuOpen ? (
+                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+              ) : (
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
+              )}
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      {/* Mobile Menu Dropdown */}
+      {mobileMenuOpen && (
+        <motion.div
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -10 }}
+          transition={{ duration: 0.3 }}
+          className="absolute top-20 left-0 w-full bg-white dark:bg-black shadow-lg rounded-lg flex flex-col items-center space-y-6 py-6 md:hidden"
+        >
+          <Link href="/" className={`text-lg ${pathname === "/" ? "text-teal-500 font-bold" : ""}`} onClick={() => setMobileMenuOpen(false)}>Home</Link>
+          <Link href="/navbar/explore" className={`text-lg ${pathname === "/navbar/explore" ? "text-teal-500 font-bold" : ""}`} onClick={() => setMobileMenuOpen(false)}>Explore</Link>
+          <Link href="/navbar/aboutus" className={`text-lg ${pathname === "/navbar/aboutus" ? "text-teal-500 font-bold" : ""}`} onClick={() => setMobileMenuOpen(false)}>About Us</Link>
+          <Link href="/navbar/contact" className={`text-lg ${pathname === "/navbar/contact" ? "text-teal-500 font-bold" : ""}`} onClick={() => setMobileMenuOpen(false)}>Contact Us</Link>
+        </motion.div>
+      )}
     </div>
   );
 }
-export default Navbar; 
+
+export default Navbar;

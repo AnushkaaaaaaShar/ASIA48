@@ -69,49 +69,49 @@ type Item = {
 const items: Item[] =[
   {
     title: "Pho from Vietnam 🇻🇳",
-    img: "/pho.jpg",
+    img: "/bento/pho.jpg",
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
     videourl: "http://www.youtube.com/watch?v=9Sg21AHuO4A"
   },
   {
     title: "Biryani from India 🇮🇳",
-    img: "/biryani.jpg",
+    img: "/bento/biryani.jpg",
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
     videourl: "http://www.youtube.com/watch?v=K9qJQmOeohU"
   },
   {
     title: "Curry from India 🇮🇳", // While Japanese curry is popular, the origin of curry is India.
-    img: "/curryM.jpg",
+    img: "/bento/curryM.jpg",
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
     videourl: "http://www.youtube.com/watch?v=mIfE6-Pra8s"
   },
   {
     title: "Pad Thai from Thailand 🇹🇭",
-    img: "/padthai.jpg",
+    img: "/bento/padthai.jpg",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
     videourl: "http://www.youtube.com/watch?v=b7YnoRFuZ9o"
   },
   {
     title: "Dim Sum from China 🇨🇳",
-    img: "/dimsum.jpg",
+    img: "/bento/dimsum.jpg",
    icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
    videourl: "http://www.youtube.com/watch?v=FKRHHjrvo6A"
   },
   {
     title: "Peking Duck from China 🇨🇳",
-    img: "/PekingDuck.jpg",
+    img: "/bento/PekingDuck.jpg",
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
     videourl: "http://www.youtube.com/watch?v=KnJ3abXjgME"
   },
   {
     title: "Sushi from Japan 🇯🇵",
-    img: "/sushi.jpg",
+    img: "/bento/sushi.jpg",
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
     videourl: "http://www.youtube.com/watch?v=xAjb1lfIVUw"
   },
   {
     title: "Kimchi from Korea 🇰🇷",
-    img: "/kimchi.jpg",
+    img: "/bento/kimchi.jpg",
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
     videourl: "http://www.youtube.com/watch?v=eTucCw1w6Ak"
 
